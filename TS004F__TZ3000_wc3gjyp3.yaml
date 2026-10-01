@@ -25,7 +25,7 @@ blueprint:
           unit_of_measurement: seconds
     action_single:
       name: Single Click Action
-      description: Action to run on single click (command 'toggle').
+      description: Action to run on single click (command toggle).
       default: []
       selector:
         action: {}

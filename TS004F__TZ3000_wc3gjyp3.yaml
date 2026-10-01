@@ -55,9 +55,8 @@ condition:
   - condition: template
     value_template: >
       {% set last = this.attributes.last_triggered %}
-      {% set delay = float(default=0.3) %}
       {% if last %}
-        {{ (now().timestamp() - last.timestamp()) > delay }}
+        {{ (now().timestamp() - last.timestamp()) > 0.3 }}
       {% else %}
         true
       {% endif %}

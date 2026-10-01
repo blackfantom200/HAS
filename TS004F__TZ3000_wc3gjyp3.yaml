@@ -54,12 +54,7 @@ trigger:
 condition:
   - condition: template
     value_template: >
-      {% set last = this.attributes.last_triggered %}
-      {% if last %}
-        {{ (now().timestamp() - last.timestamp()) > 0.3 }}
-      {% else %}
-        true
-      {% endif %}
+      true
 
 action:
   - choose:

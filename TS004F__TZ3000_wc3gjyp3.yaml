@@ -3,7 +3,7 @@ blueprint:
   description: Universal blueprint for KoMi Kojima SPB-ZGB-W button connected via ZHA. Supports single (toggle), double (on), and long (off) press actions with configurable debounce protection.
   domain: automation
   author: alex-r58
-  source_url: link.com
+  source_url: https://raw.githubusercontent.com/blackfantom200/HAS/refs/heads/main/TS004F__TZ3000_wc3gjyp3.yaml
   input:
     button_device:
       name: Button Device

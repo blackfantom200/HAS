@@ -25,19 +25,19 @@ blueprint:
           unit_of_measurement: seconds
     action_single:
       name: Single Click Action
-      description: "Action to run on single click (command: 'toggle')."
+      description: Action to run on single click (command 'toggle').
       default: []
       selector:
         action: {}
     action_double:
       name: Double Click Action
-      description: "Action to run on double click (command: 'on')."
+      description: Action to run on double click (command 'on').
       default: []
       selector:
         action: {}
     action_long:
       name: Long Press Action
-      description: "Action to run on long press (command: 'off')."
+      description: Action to run on long press (command 'off').
       default: []
       selector:
         action: {}
